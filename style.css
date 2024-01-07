@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container-md a {
+  color: #fff !important;
+}
+
+.brand a {
+  font-size: 1.4rem;
+}
+
+.btn1 {
+  display: inline-block;
+  padding: 0.625rem 1rem;
+  line-height: 1.5rem;
+  background-color: #191a1b;
+  border: 0.1rem solid white;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  border-radius: 0.5rem;
+}
+
+.btn2 {
+  display: inline-block;
+  padding: 0.625rem 1rem;
+  line-height: 1.5rem;
+  background-color: #4c5fd5;
+  border: 0.18rem solid #4c5fd5;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease-out;
+}
+
+.btn2:hover {
+  background-color: #fff;
+  border: 0.18rem solid #fff;
+  color: black;
+  transition: all 0.2s ease-out;
+}
+
+.nav .nav-item {
+  text-align: center;
+  padding: 0rem 1rem 0 0;
+}
+
+.hero-unit .hero {
+  padding: 6rem 0;
+  background: #dadbf1;
+}
+
+.hero-unit h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.hero form {
+  width: 47rem;
+}
+
+.hero form input {
+  width: 100%;
+  height: 4rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  margin-top: 1rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.37);
+}
+
+.hero form input:focus,
+.hero form input:active {
+  outline: none;
+  border: 1px solid rgb(70, 107, 207);
+}
+.hero form input:hover {
+  border: 1px solid rgb(70, 107, 207);
+}
+
+.service {
+  margin-top: 5rem;
+}
+
+.service .container .ser-row {
+  margin: 4rem 0;
+}
+
+.service .container .ser-col {
+  margin: 0;
+}
+
+.card {
+  border: none !important;
+}
+
+.card .img {
+  align-items: start;
+  justify-content: center;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+}
+
+.card h4 {
+  font-weight: 600;
+}
+
+.card .card-text,
+.card .card-text a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.card .card-text a:hover {
+  text-decoration: 2px underline;
+}
+
+.card .card-title,
+.card .card-text {
+  text-align: start;
+}
+
+
+footer{
+  width: 100%;
+  height: 47vh;
+  background: black;
+  padding: 0 2rem 4rem;
+}
+
+.footer-container{
+  height: 25rem;
+  display: flex;
+  margin: 0 3rem 0;
+  padding-bottom: 4rem;
+  position: relative;
+}
+
+.foot-col{
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 20%;
+}
+
+.foot-col h3,
+.foot-col a,
+.foot-copyright p{
+  color: #fff;
+  text-decoration: none;
+}
+.foot-col a:hover{
+  text-decoration: underline;
+}
+
+.foot-col h3{
+  margin: 2.5rem 0 1rem;
+}
+.foot-col a.fw-bolder{
+  margin-top: 1rem;
+}
+
+.footer-container .foot-copyright{
+  height: 10rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
